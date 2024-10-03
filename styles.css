@@ -1,21 +1,42 @@
-/* Styling for Navigation Bar */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
+/* Class selector */
 .nav-item {
     text-decoration: none;
     padding: 5px 10px;
+    transition: background-color 0.3s;
 }
+
+/* Pseudo-class (hover) */
 .nav-item:hover {
     background-color: lightblue;
 }
 
-/* Styling for Posts */
+/* ID selector */
+#firstPost {
+    background-color: lightgrey;
+}
+
+/* Descendant selector (applies styles to p inside .post) */
+.post p {
+    color: darkblue;
+}
+
+/* Child selector (direct children only) */
+.post > h2 {
+    font-size: 1.5em;
+    color: darkgreen;
+}
+
+/* Adjacent sibling selector (first paragraph after a heading) */
+.post h2 + p {
+    font-weight: bold;
+}
+
+/* General sibling selector (all paragraphs after a heading) */
+.post h2 ~ p {
+    font-style: italic;
+}
+
+/* Flexbox layout for posts */
 .post-container {
     display: flex;
     flex-wrap: wrap;
@@ -25,24 +46,4 @@ nav ul li {
     border: 1px solid black;
     padding: 15px;
     width: 300px;
-}
-
-/* Form Styling */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    margin: auto;
-}
-input, textarea, button {
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-/* Responsive Design using Flexbox */
-@media (max-width: 768px) {
-    .post-container {
-        flex-direction: column;
-    }
 }
