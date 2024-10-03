@@ -1,0 +1,48 @@
+/* Styling for Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.nav-item {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.nav-item:hover {
+    background-color: lightblue;
+}
+
+/* Styling for Posts */
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.post {
+    border: 1px solid black;
+    padding: 15px;
+    width: 300px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Responsive Design using Flexbox */
+@media (max-width: 768px) {
+    .post-container {
+        flex-direction: column;
+    }
+}
