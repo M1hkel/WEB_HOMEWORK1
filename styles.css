@@ -1,57 +1,126 @@
-/* Class selector */
-.nav-item {
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
+/* Navigation */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
 }
 
-/* Pseudo-class (hover) */
-.nav-item:hover {
-    background-color: lightblue;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* ID selector */
-#firstPost {
-    background-color: lightgrey;
+nav li {
+  display: inline-block;
+  margin-right: 15px;
 }
 
-/* Descendant selector (applies styles to p inside .post) */
-.post p {
-    color: darkblue;
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
-/* Child selector (direct children only) */
-.post > h2 {
-    font-size: 1.5em;
-    color: darkgreen;
+nav a:hover {
+  background-color: #ddd;
 }
 
-/* Adjacent sibling selector (first paragraph after a heading) */
-.post h2 + p {
-    font-weight: bold;
+/* Common styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* General sibling selector (all paragraphs after a heading) */
-.post h2 ~ p {
-    font-style: italic;
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-/* Flexbox layout for posts */
+p {
+  margin-bottom: 10px;
+}
+
+/* Home page */
 .post-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.post {
-    border: 1px solid black;
-    padding: 15px;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-/* Responsive design for smaller devices */
-@media (max-width: 768px) {
-    .post-container {
-        flex-direction: column;
-        align-items: center;
-    }
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.like-button, .comment-button {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Add Post page */
+.add-post-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], textarea, input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Login page */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.login-container p {
+  text-align: center;
+  margin-bottom: 20px;
 }
