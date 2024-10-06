@@ -14,14 +14,15 @@
         </ul>
     </nav>
 
-    <form action="index.html" method="post">
-        <label for="postTitle">Title:</label>
-        <input type="text" id="postTitle" name="postTitle" required>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+        <h2>Add a New Post</h2>
+        <label for="postBdy">Post Body:</label>
+        <textarea id="postBody" name="postBody" required></textarea>
 
-        <label for="postContent">Content:</label>
-        <textarea id="postContent" name="postContent" required></textarea>
+        <label for="postFile">Select File:</label>
+        <input type="file" id="postFile" name="postFile">
 
-        <button type="submit">Add Post</button>
+        <button type="submit">Create Post</button>
     </form>
 </body>
 </html>
