@@ -75,7 +75,7 @@ p {
   border-radius: 5px;
 }
 .user-info img {
-  width: 40px;
+  width: 49px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
@@ -89,7 +89,7 @@ p {
 }
 
 .like-button, .comment-button {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   border: none;
   padding: 2px 5px;
   cursor: pointer;
