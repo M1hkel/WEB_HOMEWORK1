@@ -1,7 +1,11 @@
 /* Navigation */
 nav {
-  background-color: #f2f2f2;
-  padding: 10px 20px;
+  background-color: #f2f2f2;  
+  padding: 20px; 
+  text-align: center; 
+  position: relative;  
+  bottom: 0; 
+  width: 100%;  
 }
 
 nav ul {
@@ -47,6 +51,11 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: center;  
+  position: relative;  
+  bottom: 0;  
+  width: 70%; 
+  margin: 0 auto;
 }
 
 .post {
@@ -59,34 +68,66 @@ p {
   align-items: center;
   margin-bottom: 10px;
 }
-
+.responsive-img {
+  max-width: 55%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
 .user-info img {
-  width: 30px;
+  width: 40px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
 .post-actions {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  gap: 2px;                   
 }
 
 .like-button, .comment-button {
   background-color: #f2f2f2;
   border: none;
-  padding: 5px 10px;
+  padding: 2px 5px;
   cursor: pointer;
+  margin: 0; 
+}
+
+footer {
+  background-color: #f2f2f2;  
+  padding: 20px;  
+  position: relative; 
+  bottom: 0; 
+  width: 100%;  
+}
+
+.footer-content {
+  max-width: 70%;  
+  margin: 0 auto;  
+  text-align: left; 
+}
+
+footer a {
+  color: #007bff;  
+  text-decoration: none;  
+}
+
+footer a:hover {
+  text-decoration: underline;  
 }
 
 /* Add Post page */
 .add-post-form {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 30%;                
+  max-width: 500px;         
+  margin: 0 auto;          
+  padding: 20px;           
+  border: 1px solid #ccc;   
+  border-radius: 5px;       
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 label {
@@ -94,21 +135,34 @@ label {
   margin-bottom: 5px;
 }
 
-input[type="text"], textarea, input[type="file"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+input[type="text"], textarea{
+  width: 100%; 
+  height: 20vh;
+  resize: none;          
+  padding: 0px;           
+  border: 1px solid #ccc;  
+  border-radius: 3px;       
+  margin: 0 auto; 
+  
+}
+input[type="file"] {
+  width: 100%; 
+  height: 25px;
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  margin: 0 auto; 
 }
 
 button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 3px;
+  background-color: #007bff; 
+  color: #fff;              
+  border: none;             
+  padding: 10px 20px;       
+  cursor: pointer;           
+  border-radius: 3px;       
+  margin: 0 auto; 
 }
+
 
 /* Login page */
 .login-container {
