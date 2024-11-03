@@ -56,5 +56,65 @@
         "content": "WOW!!!! I AM IN LOVE WITH THIS SITE!!! AMAZING CARS!!",
         "likes": 6969,
         "comments": 1
-    }
+    },
+    {
+        "postId": 6,
+        "author": {
+            "name": "Uku Renek",
+            "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "postDate": "2027-10-23"
+        },
+        "image": "pics/post4.jpg",
+        "content": "Took this beauty out for a spin today! BMW Z4 M40i - pure driving pleasure with a sporty yet refined look. That inline-six turbo engine is something else!",
+        "likes": 245,
+        "comments": 10
+    },
+    {
+        "postId": 7,
+        "author": {
+            "name": "Uku Renek",
+            "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "postDate": "2027-10-24"
+        },
+        "image": "pics/post5.jpg",
+        "content": "BMW’s design language has evolved so much over the years! From the sleek E21 to the aggressive G80 M3, it’s amazing how they manage to keep the brand identity while innovating with every new model.",
+        "likes": 120,
+        "comments": 3
+    },
+    {
+        "postId": 8,
+        "author": {
+            "name": "Uku Renek",
+            "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "postDate": "2027-10-25"
+        },
+        "image": "pics/post6.jpg",
+        "content": "This BMW M2 CS is a beast on the track! Took it to the limit, and it handled like a dream. Incredible power, sharp handling - no wonder it’s a fan favorite.",
+        "likes": 300,
+        "comments": 12
+    },
+    {
+        "postId": 9,
+        "author": {
+            "name": "Uku Renek",
+            "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "postDate": "2027-10-26"
+        },
+        "image": "pics/post7.jpg",
+        "content": "Can’t stop admiring the timeless design of the BMW 507. One of BMW's most iconic models, and still a head-turner after all these years!",
+        "likes": 520,
+        "comments": 20
+    },
+    {
+        "postId": 10,
+        "author": {
+            "name": "Uku Renek",
+            "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "postDate": "2027-10-27"
+        },
+        "image": "pics/post8.jpg",
+        "content": "Restored this classic E24 BMW 6 Series. The shark-nose front, the powerful engine - can’t wait to start driving it!",
+        "likes": 400,
+        "comments": 18
+    } 
 ]
