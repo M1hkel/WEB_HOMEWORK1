@@ -18,7 +18,8 @@
   padding: 0;
 }
 
-.nav-links router-link {
+.nav-links a,  /* Added a fallback for traditional links */
+.nav-links router-link { 
   text-decoration: none;
   color: var(--color-text);
   font-weight: bold;
@@ -30,11 +31,13 @@
   text-transform: uppercase;
 }
 
+.nav-links a:hover, 
 .nav-links router-link:hover {
   background-color: var(--color-border-hover);
   color: var(--color-heading);
 }
 
+.nav-links a:after, 
 .nav-links router-link:after {
   content: "";
   position: absolute;
@@ -46,17 +49,20 @@
   transition: width 0.3s ease;
 }
 
+.nav-links a:hover:after, 
 .nav-links router-link:hover:after {
   width: 100%;
 }
 
-.nav-links router-link.active {
+.nav-links router-link.active,
+.nav-links a.active {  
   color: var(--color-primary);
   font-weight: bold;
   background-color: var(--color-background-soft);
 }
 
-.nav-links router-link:focus {
+.nav-links router-link:focus,
+.nav-links a:focus {
   outline: none;
   box-shadow: 0 0 5px 2px var(--color-border-hover);
 }
