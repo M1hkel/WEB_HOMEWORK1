@@ -1,68 +1,65 @@
-
-
 /* post styling*/
 .post {
-    width: 100%; 
-    max-width: 800px;
-    margin: 0 auto; 
-    padding: 20px;
-    background: var(--color-background-soft); 
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .post:hover {
-    background-color: var(--color-background-mute);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  }
-  
-  .post-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  .post-header img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .post-header h3 {
-    font-size: 1.1rem;
-    color: var(--color-heading);
-  }
-  
-  .post-header span {
-    font-size: 0.9rem;
-    color: var(--color-text-light-2);
-  }
-  
-  .post-image {
-    width: 100%;
-    height: auto;
-    margin-top: 1rem;
-    border-radius: 8px;
-  }
-  
-  .post-content {
-    margin-top: 1rem;
-    font-size: 1rem;
-    color: var(--color-text);
-  }
-  
-  .post-footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.5rem;
-  }
-  
-  .post-footer .likes,
-  .post-footer .comments {
-    font-size: 0.9rem;
-    color: var(--color-text-light-2);
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--color-background-soft);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.post:hover {
+  background-color: var(--color-background-mute);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-header h3 {
+  font-size: 1.1rem;
+  color: var(--color-heading);
+}
+
+.post-header span {
+  font-size: 0.9rem;
+  color: var(--color-text-light-2);
+}
+
+.post-image {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 8px;
+  object-fit: cover; 
+}
+
+.post-content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: var(--color-text);
+  line-height: 1.6; 
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.post-footer .likes,
+.post-footer .comments {
+  font-size: 0.9rem;
+  color: var(--color-text-light-2);
+}
