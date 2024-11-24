@@ -1,0 +1,26 @@
+
+/* Footer styles */
+.footer {
+    padding: 2rem;
+    background-color: var(--color-background-soft);
+    color: var(--color-text-light-1);
+    text-align: center;
+    border-top: 1px solid var(--color-border);
+  }
+  
+  .team-info {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
+    color: var(--color-text-light-2);
+  }
+  
+  .team-info a {
+    color: var(--color-heading);
+    text-decoration: none;
+    transition: 0.3s color ease;
+  }
+  
+  .team-info a:hover {
+    color: var(--color-text-light-1);
+  }

@@ -6,7 +6,7 @@
             "avatar": "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "postDate": "2027-10-19"
         },
-        "image": "pics/post1.JPG",
+        "image": "src/data/images/post1.JPG",
         "content": "The winning BMW 320D11 in the 24-Hour race 1998 on the Nürburgring.",
         "likes": 110,
         "comments": 5
@@ -15,7 +15,7 @@
         "postId": 2,
         "author": {
             "name": "User",
-            "avatar": "pics/user.png",
+            "avatar": "src/data/user.png",
             "postDate": "2027-10-19"
         },
         "content": "Founded in 1916, BMW (Bayerische Motoren Werke) began as a manufacturer of aircraft engines before pivoting to motorcycles in 1923 and then automobiles in 1928 with the BMW 3/15. Renowned for its commitment to performance and luxury, BMW became iconic with models like the 328 sports car and the 2002. The brand's slogan, \"The Ultimate Driving Machine,\" encapsulates its legacy of engineering excellence. Today, BMW continues to innovate, leading the way in electric mobility with its i series while remaining a symbol of quality and driving pleasure.",
@@ -26,10 +26,10 @@
         "postId": 3,
         "author": {
             "name": "User",
-            "avatar": "pics/user.png",
+            "avatar": "src/data/user.png",
             "postDate": "2027-10-20"
         },
-        "image": "pics/post2.jpg",
+        "image": "src/data/images/post1.JPG",
         "content": "The BMW E30, produced from 1982 to 1994, is a classic compact executive car that is highly regarded among enthusiasts. Part of the BMW 3 Series, it features a distinctive boxy design and rear-wheel drive, offering a range of engines, from economical four-cylinders to powerful six-cylinder options. The E30 M3, in particular, is celebrated for its high-revving 2.3-liter inline-four engine and motorsport heritage. Known for its balanced handling and solid build quality, the E30 remains a beloved classic, with a strong aftermarket scene for restoration and modification. Its combination of sportiness and practicality continues to attract admirers today.",
         "likes": 300,
         "comments": 9
@@ -38,10 +38,10 @@
         "postId": 4,
         "author": {
             "name": "User",
-            "avatar": "pics/user.png",
+            "avatar": "src/data/user.png",
             "postDate": "2027-10-20"
         },
-        "image": "pics/post3.jpg",
+        "image": "src/data/images/post3.jpg",
         "content": "This is my 2001 525i e39. It may not be the prettiest, but it has a strong aura. :P",
         "likes": 69,
         "comments": 0
@@ -50,7 +50,7 @@
         "postId": 5,
         "author": {
             "name": "User",
-            "avatar": "pics/user.png",
+            "avatar": "src/user.png",
             "postDate": "2027-10-22"
         },
         "content": "WOW!!!! I AM IN LOVE WITH THIS SITE!!! AMAZING CARS!!",
@@ -64,7 +64,7 @@
             "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "postDate": "2027-10-23"
         },
-        "image": "pics/post4.jpg",
+        "image": "src/data/images/post4.jpg",
         "content": "Took this beauty out for a spin today! BMW Z4 M40i - pure driving pleasure with a sporty yet refined look. That inline-six turbo engine is something else!",
         "likes": 245,
         "comments": 10
@@ -76,7 +76,7 @@
             "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "postDate": "2027-10-24"
         },
-        "image": "pics/post5.jpg",
+        "image": "src/data/images/post5.jpg",
         "content": "BMW’s design language has evolved so much over the years! From the sleek E21 to the aggressive G80 M3, it’s amazing how they manage to keep the brand identity while innovating with every new model.",
         "likes": 120,
         "comments": 3
@@ -88,7 +88,7 @@
             "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "postDate": "2027-10-25"
         },
-        "image": "pics/post6.jpg",
+        "image": "src/data/images/post6.jpg",
         "content": "This BMW M2 CS is a beast on the track! Took it to the limit, and it handled like a dream. Incredible power, sharp handling - no wonder it’s a fan favorite.",
         "likes": 300,
         "comments": 12
@@ -100,7 +100,7 @@
             "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "postDate": "2027-10-26"
         },
-        "image": "pics/post7.jpg",
+        "image": "src/data/images/post7.jpg",
         "content": "Can’t stop admiring the timeless design of the BMW 507. One of BMW's most iconic models, and still a head-turner after all these years!",
         "likes": 520,
         "comments": 20
@@ -112,7 +112,7 @@
             "avatar": "https://images.pexels.com/photos/1234853/pexels-photo-1234853.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "postDate": "2027-10-27"
         },
-        "image": "pics/post8.jpg",
+        "image": "src/data/images/post8.jpg",
         "content": "Restored this classic E24 BMW 6 Series. The shark-nose front, the powerful engine - can’t wait to start driving it!",
         "likes": 400,
         "comments": 18
